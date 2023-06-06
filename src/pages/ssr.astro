@@ -1,6 +1,4 @@
 ---
-export const prerender = true;
-
 const randomNumber = Math.random();
 ---
 
@@ -10,10 +8,10 @@ const randomNumber = Math.random();
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Static</title>
+		<title>SSR</title>
 	</head>
 	<body>
 		<h1>Hybrid Rendering with Astro on Deno Deploy</h1>
-    <p>Static random number: {randomNumber}</p>
+    <p>SSR random number: {randomNumber}</p>
 	</body>
 </html>
